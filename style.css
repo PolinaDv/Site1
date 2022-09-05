@@ -1,0 +1,90 @@
+body{
+    background: #E5E5E5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    font-size: 22px;
+    line-height: 26px;
+}
+.one{
+    top: 79px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #0E6F3B;
+}
+.two{
+    top: 111px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #8FD192;
+}
+.three{
+    top: 143px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #8FD192;
+}
+.four{
+    top: 175px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #8FD192;
+}
+.five{
+    top: 207px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #8FD192;    
+}
+.title{
+    top: 60px;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    color: #000000;
+}
+.subtitle{
+    top: 251px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+.main_text{
+    top: 324px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20.8251px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.logo{
+    width: 208px;
+    height: 208px;
+    background: url(ghalblogo.png);
+    padding: 53px;
+}
+@media screen and (max-width: 768px) {
+   header{
+    flex-direction: column;
+   }
+   .logo{
+    order: 1;
+   }
+   nav{
+    order: 2;
+   }
+   .text{
+    order: 3;
+   }
+
+}
